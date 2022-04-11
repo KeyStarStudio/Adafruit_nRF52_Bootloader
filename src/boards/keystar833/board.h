@@ -22,8 +22,8 @@
  * THE SOFTWARE.
  */
 
-#ifndef PCA10056_H
-#define PCA10056_H
+#ifndef KEYSTAR_833
+#define KEYSTAR_833
 
 #define _PINNUM(port, pin)    ((port)*32 + (pin))
 /*------------------------------------------------------------------*/
@@ -53,13 +53,13 @@
 //--------------------------------------------------------------------+
 
 // Shared VID/PID with Feather nRF52840, will be disabled for building in the future
-#define USB_DESC_VID           0x239A
-#define USB_DESC_UF2_PID       0x0029
-#define USB_DESC_CDC_ONLY_PID  0x0029
-#define UF2_VOLUME_LABEL   "KSTARORION"
+#define USB_DESC_VID           0x1915
+#define USB_DESC_UF2_PID       0x521F
+#define USB_DESC_CDC_ONLY_PID  0x521F
+#define UF2_VOLUME_LABEL   "KSTARORION-V2"
 
 #define UF2_PRODUCT_NAME    "KEYSTAR"
 #define UF2_BOARD_ID        "Orion"
-#define UF2_INDEX_URL       "https://www.nordicsemi.com/Software-and-Tools/Development-Kits/nRF52840-DK"
+#define UF2_INDEX_URL       "https://www.kindlestar.net"
 
-#endif // PCA10056_H
+#endif // KEYSTAR_833
