@@ -55,7 +55,7 @@
 #define USB_DESC_CDC_ONLY_PID  0x521F
 
 #define UF2_PRODUCT_NAME    "ORION-V2"
-#define UF2_BOARD_ID        "orion-52840-v1"
+#define UF2_BOARD_ID        "orion-52833-v1"
 #define UF2_INDEX_URL       "https://www.nordicsemi.com/Software-and-Tools/Development-Kits/nRF52833-DK"
 
 #endif // PCA10100_H
